@@ -1,21 +1,30 @@
-MIT License
 
-Copyright (c) 2025 Guxtav1n
+## Design Document (docs/design.md)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+```markdown
+# Design do Jogo "Corrida do Campo à Cidade"
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Visão Geral
+Jogo de corrida infinito com temática cultural negra, onde o jogador avança do campo até a cidade.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Personagens
+- **Jogador principal**: Homem/Mulher negra com trajes que mudam conforme avança (roupas de campo -> urbano)
+- **NPCs**: Outros corredores, pessoas no cenário
+
+## Cenários
+1. **Campo**: Plantações, casas simples, elementos rurais
+2. **Transição**: Pequenas vilas, estradas de terra
+3. **Cidade**: Periferia, centros urbanos, grafites
+
+## Mecânicas
+- Corrida automática (jogador controla apenas pulos e desvios)
+- Obstáculos:
+  - No campo: Cercas, animais, equipamentos agrícolas
+  - Na cidade: Buracos, obstáculos urbanos
+- Power-ups:
+  - Elementos culturais (tambores, panos de cabeça)
+  - Comidas tradicionais (acarajé, feijoada)
+
+## Progressão
+- O cenário muda conforme a distância percorrida
+- Velocidade aumenta gradualmente
